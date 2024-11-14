@@ -1,0 +1,52 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .containers {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo p{
+    font-family: sans-serif;
+    color: orange;
+    font-size: 1.6em;
+  }
+
+  .logo2 {
+    font-weight: bold;
+  }
+
+  .images img{
+    width: 20px; 
+  }
+
+  select {
+    padding: 10px;
+  }
+
+  .images {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: gray;
+  }
+
+  select {
+    border: 1px solid orange;
+    border-radius: 20px;
+    color: orange;
+  }
+
+  .imagess1 img{
+    width: 40px;
+  }
+
+
+
