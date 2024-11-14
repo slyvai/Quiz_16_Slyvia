@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./Header.jsx"
 import SideBar from "./SideBar.jsx"
+import MiddleComponents from "./MiddleComponents.jsx"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
      <Header />
      <SideBar />
+     <MiddleComponents />
     </>
   )
 }

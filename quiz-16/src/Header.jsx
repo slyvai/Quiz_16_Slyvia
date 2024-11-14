@@ -12,7 +12,7 @@ function Header() {
       <div className="images">
       <p><img src={Verified} alt="" /> verified </p>
       <select>
-        <option>kigewew826</option>
+        <option>apaaja21</option>
       </select>
       </div>
     </div>
