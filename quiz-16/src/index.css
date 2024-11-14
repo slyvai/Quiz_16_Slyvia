@@ -45,7 +45,19 @@
   }
 
   .imagess1 img{
-    width: 40px;
+    width: 50px;
+  }
+
+  .imagess1 {
+    padding: 2.5em;
+
+  }
+
+  .imagess1 p {
+    display: flex;
+      font-size: 20px;
+      align-items: center;
+      gap: 0.5em;
   }
 
 

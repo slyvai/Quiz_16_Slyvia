@@ -5,7 +5,7 @@ import "./index.css"
 function SideBar() {
   return (
   <div className="imagess1">
-    <img src={HomeImage} alt="" />
+    <p><img src={HomeImage} alt="" /> Home</p>
   </div>
   )
 }
