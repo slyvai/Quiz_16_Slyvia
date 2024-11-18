@@ -1,3 +1,4 @@
+    
     * {
       margin: 0;
       padding: 0;
@@ -96,10 +97,7 @@
     box-shadow: 0 9px 6px 2px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     min-height: calc(90vh - 4rem);
-    position: absolute;
-    left: 30%;
-    top: 95%;
-    transform: translate(-50%,-50%);
+    transform: translate(-35%,-50%);
   }
 
   .main-container{
@@ -113,10 +111,9 @@
   }
 
     textarea {
-      width: 85%;
       resize: none;
       border: none;
-      margin-left: 2em;
+      margin-left: 2em
     }
 
     textarea:focus {
@@ -130,60 +127,38 @@
       margin-top: 1em;
     }
 
-    .profile-com {
-      display: flex;
-      align-items: center;
-      box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.1);
-      width: 40vw;
-      height: 10vh;
-      margin-top: 1em;
-    }
-
-    .profile-com .profile-pics{
-      width:3em;
-      height: auto;
-      border-radius: 50%;
-      margin-top: -2em;
-    }
-
-    .profile-com p {
-      font-family: sans-serif;
-      display: flex;
-      align-items: center;
-      gap: 1em;
-      font-weight: bold;
-      margin-left: 10px;
-      font-size: 1em;
-      margin-top: -2em;
-    }
-
-    .texts1 {
-      color: gray;
-      font-family: sans-serif;
-      display: flex;
-      margin-bottom: -2em;
-    }
-
-    .profile-com h4 {
-      font-family: sans-serif;
-      margin-left: -11em;
-      margin-top: 1em;
-      font-weight: 100;
-    }
-
-    .like-pics {
-      width: 3%;
-      margin-bottom: -2em;
-    }
-
-  .profiles {
+  .profile-icon img {
     border-radius: 50%;
-    width: 50px;
-    position: relative;
-    top: -4em;
+    width: 3em;
   }
 
-  
+  .comment-content {
+  font-family: sans-serif;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .like-button img{
+    width: 2em;
+  }
+
+  .like-button {
+     border: none;
+     background-color: #fff;
+  }
+
+  .username {
+    display: flex;
+    margin-left: 3em;
+    margin-top: -2em;
+    font-size: 20px;
+  }
+
+  .date {
+    margin-left: 11em;
+    position: relative;
+    top: -1.3em;
+    font-size: 15px;
+  }
 
   .area-com p {
     display: flex;
@@ -201,12 +176,10 @@
 
   .titles {
     background: rgb(255, 245, 231);
-    text-align: left;
-    height: 100%;  
     padding: 20px;   
     border-radius: 20px;
     font-family: sans-serif;
-    transform: translate(1px, -25em);
+    transform: translate(1em, -65em);
     float: right;
   }
 
@@ -240,15 +213,3 @@
     color: rgb(141, 137, 137);
   }
 
-  @media (max-width: 576px) {
-    .images {
-      display: block;
-    }
-
-    .imagess1 {
-      margin-right: -200px;
-    }
-
-    .imagess1 p {
-    }
-  }
